@@ -1,0 +1,55 @@
+# Technical Stack
+Language: Python
+Libraries:
+pandas for data manipulation and cleaning.
+numpy for numerical operations.
+
+matplotlib / seaborn for data visualization.
+
+scikit-learn for implementing the Linear Regression model and splitting the data.
+# Methodology (Steps Taken)
+The project followed a standard Machine Learning pipeline:
+
+Data Loading and Inspection:
+
+Loaded the dataset (.csv file) using pandas.
+
+Inspected the data structure (.info()) and statistical summary (.describe()).
+
+Exploratory Data Analysis (EDA):
+
+Visualized the relationship between the chosen independent feature and the target variable using scatter plots to confirm a linear correlation, which is essential for Simple Linear Regression.
+
+Data Preprocessing:
+
+Handled any missing or non-numerical data points.
+
+Split the dataset into training and testing sets (e.g., 70:30 or 80:20 split) to ensure robust model validation.
+
+Model Training:
+
+Initialized and trained the LinearRegression model from scikit-learn on the training data.
+
+Calculated the slope (β 
+1
+​
+ ) and intercept (β 
+0
+​
+ ) of the best-fit line.
+
+Prediction and Evaluation:
+
+Used the trained model to make predictions on the unseen testing data.
+
+Evaluated the model's accuracy using key regression metrics:
+
+Mean Squared Error (MSE): Measures the average squared difference between the estimated values and the actual value.
+
+R-squared (R 
+2
+ ): Represents the proportion of the variance in the dependent variable that is predictable from the independent variable(s).
+
+Results Visualization:
+
+Plotted the original test data points alongside the predicted regression line to visually demonstrate the model's fit.

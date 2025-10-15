@@ -1,0 +1,1 @@
+The objective is to build a predictive model using Simple Linear Regression to estimate the numerical outcome house price based on a given dataset. This is a core concept in machine learning and provides practical experience in developing, evaluating, and interpreting a predictive model.
